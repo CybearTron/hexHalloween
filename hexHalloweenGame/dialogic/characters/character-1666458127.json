@@ -1,0 +1,21 @@
+{
+	"color": "#ff000000",
+	"description": "Darkness Devil\n",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1666458127.json",
+	"mirror_portraits": false,
+	"name": "Darko",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

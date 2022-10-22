@@ -1,0 +1,21 @@
+{
+	"color": "#ff6d1414",
+	"description": "A little boy.",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1666458080.json",
+	"mirror_portraits": false,
+	"name": "Kulrik",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why Me?"
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why Mommy why?!?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666458074.json",
+		"name": "Beggining"
+	}
+}
