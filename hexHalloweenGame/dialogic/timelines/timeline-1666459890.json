@@ -1,0 +1,63 @@
+{
+	"events": [
+		{
+			"character": "character-1666459905.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hwlo there! Kulrik! It's a pleasure to see you! "
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who are you? How do you know my name?"
+		},
+		{
+			"character": "character-1666459905.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know everything child. I also know you want to leave this place. I even know the exit."
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really? Will you help me? "
+		},
+		{
+			"character": "character-1666459905.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course! To escape this hellscape you have to meet the demonlords and beat them! Remember one thing although, if you lose your sanity you will never be able to leave this place."
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks good sir! I will try to remain sane! Can you tell me where to find these demon lords?"
+		},
+		{
+			"character": "character-1666459905.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Remember kid, these demonlords are not forces to be reckoned with! They are hateful and hard to defeat! You might lose your sanity forever!"
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's fine sir! Please just tell me where to go!"
+		},
+		{
+			"character": "character-1666459905.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you insist so much.. Go left till you reach a statue. Activate the statue and you will reach the first demonlord."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666459890.json",
+		"name": "Butler"
+	}
+}

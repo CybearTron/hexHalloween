@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Art/icon.png" type="Texture" id=2]
-[ext_resource path="res://Scenes/Monsters/Claustro.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Monsters/Butler.tscn" type="PackedScene" id=3]
 
 [sub_resource type="TileSet" id=1]
 0/name = "icon.png 0"
@@ -30,5 +30,5 @@ tile_data = PoolIntArray( -458757, 0, 0, -458756, 0, 0, -458755, 0, 0, -458754, 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 229, 113 )
 
-[node name="Claustro" parent="." instance=ExtResource( 3 )]
-position = Vector2( 628, 83 )
+[node name="Butler" parent="." instance=ExtResource( 3 )]
+position = Vector2( 477, 187 )

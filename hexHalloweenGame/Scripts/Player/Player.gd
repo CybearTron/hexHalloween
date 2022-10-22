@@ -37,9 +37,8 @@ func _physics_process(delta):
 	motion = Vector2.ZERO
 	_movement()
 	
-	
-	
-	
+
+
 
 
 
@@ -49,5 +48,10 @@ func _on_Area2D_area_entered(area):
 	if area.is_in_group("claustro"):
 		sanity -= 20
 		timeline = "Claustro"
+		var new_dialog = Dialogic.start(timeline)
+		add_child(new_dialog)
+	
+	if area.is_in_group("butler"):
+		timeline = "Butler"
 		var new_dialog = Dialogic.start(timeline)
 		add_child(new_dialog)
