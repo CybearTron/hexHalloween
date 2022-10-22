@@ -10,6 +10,7 @@ script = ExtResource( 2 )
 speed = 150
 
 [node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0.0470588, 0.388235, 0.141176, 1 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
