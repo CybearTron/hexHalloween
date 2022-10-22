@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who are  you? Why do you look like like that?"
+		},
+		{
+			"character": "character-1666458105.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I be Claustro. I not like open stuf. Wols r great stuff"
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What the hell is happening?!!!"
+		},
+		{
+			"character": "character-1666458105.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh noth! jus the wols are coming together to hug each other"
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What nooooooo!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666458259.json",
+		"name": "Claustro"
+	}
+}
