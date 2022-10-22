@@ -20,11 +20,3 @@ shape = SubResource( 1 )
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 zoom = Vector2( 0.6, 0.6 )
-
-[node name="Dialog" type="Label" parent="."]
-visible = false
-margin_left = -296.0
-margin_top = 96.0
-margin_right = 296.0
-margin_bottom = 152.0
-autowrap = true
