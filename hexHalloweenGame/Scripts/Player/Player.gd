@@ -2,10 +2,13 @@ extends KinematicBody2D
 
 var timeline = ""
 
+export (int) var sanity = 100
+
 func _ready():
 	timeline = "Beginning"
 	var new_dialog = Dialogic.start(timeline)
 	add_child(new_dialog)
+	sanity -= 10
 
 var motion = Vector2()
 
@@ -37,7 +40,6 @@ func _physics_process(delta):
 	
 	if timeline == "Claustro":
 		var new_dialog = Dialogic.start(timeline)
-
 		add_child(new_dialog)
 
 
