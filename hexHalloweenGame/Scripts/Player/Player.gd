@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+var is_dialog = false
 
 var motion = Vector2()
 
@@ -27,3 +28,6 @@ func _movement():
 func _physics_process(delta):
 	motion = Vector2.ZERO
 	_movement()
+	
+	if is_dialog == true:
+		pass
