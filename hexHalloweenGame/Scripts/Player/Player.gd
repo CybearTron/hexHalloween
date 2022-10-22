@@ -38,10 +38,16 @@ func _physics_process(delta):
 	_movement()
 	
 	
-	if timeline == "Claustro":
+	
+	
+
+
+
+
+
+func _on_Area2D_area_entered(area):
+	if area.is_in_group("claustro"):
+		sanity -= 20
+		timeline = "Claustro"
 		var new_dialog = Dialogic.start(timeline)
 		add_child(new_dialog)
-
-
-
-
