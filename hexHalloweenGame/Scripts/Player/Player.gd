@@ -65,3 +65,10 @@ func _on_Area2D_area_entered(area):
 		var new_dialog = Dialogic.start(timeline)
 		add_child(new_dialog)
 		butlerDialogged = true
+	
+
+
+func _on_Area2D_body_entered(body):
+	if body.is_in_group("demonStatue"):
+		if body.lord == "Claustro":
+			print(body.lord)
