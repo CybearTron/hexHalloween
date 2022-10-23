@@ -33,3 +33,4 @@ tile_data = PoolIntArray( -458757, 0, 0, -458756, 0, 0, -458755, 0, 0, -458754, 
 position = Vector2( 264, 256 )
 
 [node name="Claustro" parent="." instance=ExtResource( 2 )]
+position = Vector2( 280, 96 )
