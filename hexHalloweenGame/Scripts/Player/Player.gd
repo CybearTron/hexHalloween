@@ -11,11 +11,12 @@ var beginnerDialogged = false #Has Kulrik talked with Himself in the beginning
 export (int) var sanity = 100
 
 func _ready():
-	if beginnerDialogged== false
-	timeline = "Beginning"
-	var new_dialog = Dialogic.start(timeline)
-	add_child(new_dialog)
-	sanity -= 10
+	if beginnerDialogged== false:
+		timeline = "Beginning"
+		var new_dialog = Dialogic.start(timeline)
+		add_child(new_dialog)
+		sanity -= 10
+		beginnerDialogged = true
 
 var motion = Vector2()
 
