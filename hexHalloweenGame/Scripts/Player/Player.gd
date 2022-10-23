@@ -10,13 +10,16 @@ var beginnerDialogged = false #Has Kulrik talked with Himself in the beginning
 
 export (int) var sanity = 100
 
+var demonlord = null
+
 func _ready():
 	if beginnerDialogged== false:
+		beginnerDialogged = true
 		timeline = "Beginning"
 		var new_dialog = Dialogic.start(timeline)
 		add_child(new_dialog)
 		sanity -= 10
-		beginnerDialogged = true
+		
 
 var motion = Vector2()
 
@@ -45,8 +48,10 @@ func _physics_process(delta):
 	motion = Vector2.ZERO
 	_movement()
 	
-
-
+	if demonlord != null:
+		if Input.is_action_just_pressed("ui_accept"):
+			get_tree().change_scene("res://Scenes/Levels/Claustrophobia.tscn")
+	
 
 
 
@@ -70,5 +75,9 @@ func _on_Area2D_area_entered(area):
 
 func _on_Area2D_body_entered(body):
 	if body.is_in_group("demonStatue"):
+		
+	
 		if body.lord == "Claustro":
-			print(body.lord)
+			
+			demonlord = body
+			
