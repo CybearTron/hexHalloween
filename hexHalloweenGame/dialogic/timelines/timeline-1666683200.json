@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AHHHHH!!! What are you!!?!! "
+		},
+		{
+			"character": "character-1666458143.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don't be scared child. I am Arachna. I am your friend! "
+		},
+		{
+			"character": "character-1666458080.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "YOU ARE A SPIDER! SPIDERS ARE NOT FRIENDS!! PLEASE LEAVE ME!! PLS!!!"
+		},
+		{
+			"character": "character-1666458143.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry kid... You cannot be saved.. "
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666683200.json",
+		"name": "Arachna"
+	}
+}

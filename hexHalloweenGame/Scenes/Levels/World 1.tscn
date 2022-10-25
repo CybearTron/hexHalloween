@@ -36,3 +36,4 @@ position = Vector2( 477, 187 )
 
 [node name="demonStatue" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1399, 169 )
+lord = "Arachna"

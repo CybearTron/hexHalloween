@@ -29,5 +29,18 @@ zoom = Vector2( 0.6, 0.6 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource( 2 )
 
+[node name="sanityDecrement" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="sanityLabel" type="Label" parent="."]
+margin_left = -296.0
+margin_top = -160.0
+margin_right = -176.0
+margin_bottom = -146.0
+text = "Make a Sanity Bar"
+autowrap = true
+
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="timeout" from="sanityDecrement" to="." method="_on_sanityDecrement_timeout"]

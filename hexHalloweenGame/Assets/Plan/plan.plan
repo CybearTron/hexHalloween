@@ -8,8 +8,8 @@ Plan:
 
 1. Player Movement//
 2. Dialog System.//
-3. Sanity System//
-4. Phobias : Claustrophobia, Arachnophobia, Nyctophobia, Dementophobia
+3. Sanity System// Sanity decreases every 10 seconds.
+4. Phobias : Arachnophobia, Nyctophobia, Dementophobia
 5. Art
 6. Music
 7. Spook
@@ -19,3 +19,30 @@ Spook:
 1. Spoopy music
 2. Spoopy art
 3. Darkness
+
+Phobias:
+
+1. Arachnophobia: 
+
+	The spider chases you. You have to run away and hide. You have to find the next demonstatue. The longer you take, your sanity decreases. You have to get to the demonstatue as soon as possible.
+
+2. Nyctophobia:
+	
+	It's extremely dark. You have to find the pieces of the demon statue and build it up. It's just so damn dark.
+
+3. Dementophobia:
+	
+	Last stage. You have to just walk. Just walk up to the last demon statue that is the exit. You just have to walk... Nothing else... Just hope you don't go mad.
+
+
+
+Art:
+
+1. Player
+2. All the phobias
+3. Butler
+4. Environment stuff
+5. Demon Statues
+6. Tilemap
+
+
