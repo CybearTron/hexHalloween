@@ -80,6 +80,10 @@ func _on_Area2D_area_entered(area):
 
 
 func _on_Area2D_body_entered(body):
+	
+	if body.is_in_group("arachna"):
+		sanity -= 1
+		
 	if body.is_in_group("demonStatue"):
 		
 	
@@ -89,7 +93,7 @@ func _on_Area2D_body_entered(body):
 	
 	if body.is_in_group("arachna") and arachnaDialogged == false:
 		canMove = false
-		sanity -= 20
+		
 		timeline = "Arachna"
 		var new_dialog = Dialogic.start(timeline)
 		add_child(new_dialog)

@@ -4,3 +4,4 @@ func _physics_process(delta):
 	$Player.beginnerDialogged = true
 	
 	
+	
